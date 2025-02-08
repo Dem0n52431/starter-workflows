@@ -10,7 +10,7 @@
 # see https://google.github.io/osv-scanner/github-action/
 
 name: OSV-Scanner
-
+Phi-3.5-mini instruct (128k)
 on:
   pull_request:
     branches: [ $default-branch, $protected-branches ]
@@ -46,3 +46,4 @@ jobs:
         -r
         --skip-git
         ./
+       @nasi6916
